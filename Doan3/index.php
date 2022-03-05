@@ -4,14 +4,29 @@
 <title>WELCOM TO Hải Sản Việt</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/php; charset=utf-8" />
+
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+
+<!-- Link css sửa cái footer -->
+<link href="css/phuccss.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link href="css/StylePhuc.css" rel="stylesheet">
+
+<!-- Kết thúc css cái footer -->
+
+
+
 <script type="text/javascript" src="js/jquery1.min.js"></script>
 <!-- start menu -->
 <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+
 <!--start slider -->
     <link rel="stylesheet" href="css/fwslider.css" media="all">
     <script src="js/jquery-ui.min.js"></script>
@@ -251,6 +266,75 @@ $DB = new DB_driver();
         <div class="slideNext"><span></span></div>
     </div>
     <!--/slider -->
+
+
+
+	<!-- Bắt đầu chỉnh code footer <phuc> -->
+
+ <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4 " style="background-color: rgba(122, 204, 236, 0.9);padding: 5px; border-radius: 5px;margin-bottom: -15px; ">Các công ty hợp tác cùng chúng tôi</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+<!--Logo công ty quảng cáo-->
+<div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fab fa-react"></i>
+                <h3>Thiên Nam</h3>
+                <p>Công ty tôm giống miền nam</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-angular"></i>
+                <h3>Đại Tiến </h3>
+                <p>Nhà phân phối tôm thành phẩm</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>Hương Việt</h3>
+                <p>Công ty thương hiệu</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+
+<!-- Phần giới thiệu về công ty chúng tôi -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>Giới thiệu về các công ty</h2>
+			<p>Thành lập năm 2001, Công ty TNHH Việt – Úc nhanh chóng trở thành một trong những công ty cung cấp tôm giống và tôm bố mẹ uy tín, chất lượng nhất nước.</p>
+			<p>Công ty Việt – Úc nhập tôm bố mẹ từ Mỹ và Úc đạt tiêu chuẩn quốc tế quy trình sản xuất tôm giống áp dụng tiêu chuẩn GlobalGAP. Năm 2012, Công ty Việt – Úc đưa ra thị trường 4 tỷ con giống, vượt kế hoạch 0,5 tỷ con.</p>
+			<p>Trong đó bán cho các vùng nuôi 3,6 tỷ con, doanh thu 280 tỷ đồng; hỗ trợ vùng nuôi thiệt hại do dịch bệnh 0,4 tỷ con, trị giá trên 3,2 tỷ đồng. Năm 2013, Việt – Úc sẽ tăng sản lượng giống lên 6,4 tỷ con (bằng 160% so năm 2012), giá bán
+				bình quân 80 đồng/con. Để hoàn thành kế hoạch, năm 2012 Công ty đã đầu tư thêm 40 tỷ đồng, lấp bớt ao nuôi tôm thịt để lập thêm 31 trại sản xuất giống, cùng các hạ tầng kỹ thuật khác.</p>
+			<br>
+		</div>
+		<div class="col-lg-6">
+			<img src="./Images/congty.jpg" class="img-fluid">
+		</div>
+	</div>
+</div>
+<!-- Kết thúc phần giới thiệu công ty chúng tôi -->
+
+
+<!-- Kết thúc thêm code footer </Phuc> -->
+
+
+
+
+
+
+
+
+
 <div class="main">
 	<div class="wrap">
 		<div class="section group">
@@ -546,7 +630,7 @@ $DB = new DB_driver();
 		<div class="footer-top">
 			<div class="wrap">
 			  <div class="section group example">
-				<div class="col_1_of_2 span_1_of_2" style="background:#39a0b9">
+				<!-- <div class="col_1_of_2 span_1_of_2" style="background:#39a0b9">
 					<ul class="f-list">
 					  <li><img src="images/2.png"><span class="f-text">Free ship với hóa đơn trên 300.000đ</span>
 				        <div class="clear"></div></li>
@@ -557,12 +641,12 @@ $DB = new DB_driver();
 					  <li><img src="images/3.png"><span class="f-text">Hãy gọi cho chúng tôi !</span>
 		                <div class="clear"></div></li>
 					</ul>
-				</div>
+				</div> -->
 				<div class="clear"></div>
 		      </div>
 			</div>
 		</div>
-		<div class="footer-middle">
+		<!-- <div class="footer-middle">
 			<div class="wrap">				   		   		   
 		   <div class="section group example">
 			  <div class="col_1_of_f_1 span_1_of_f_1">
@@ -607,7 +691,85 @@ $DB = new DB_driver();
 			    </div>
 			    <div class="clear"></div>
 		      </div>
-	     </div>
+	     </div> -->
+
+		<!--Thẻ tầm nhìn-->
+        <div class="row padding">
+				<div class="col-md-12 col-lg-6">
+					<h2>Tầm nhìn</h2>
+					<p>Tầm nhìn: Cung cấp đầy đủ truy nguyên nguồn gốc, tính bền vững và nâng cao hiệu suất cho ngành công nghiệp nuôi tôm sú toàn cầu.</p>
+					<p>Sứ mệnh: Là nhà sản xuất và cung cấp giống lai chọn lọc hàng đầu đã được thuần hoá và thông qua, cải tiến về mặt di truyền và được chứng nhận SPF giống tôm bố mẹ.</p>
+					<p class="left ">Sứ mệnh thương mại: Cung cấp cho ngành công nghiệp thủy sản Tôm Sú những giải pháp cần thiết cho các vấn đề hiện tại của: – Truy nguồn gốc xuất xứ,cung cấp nguyên liêu thô liên tục và bền vững (Hậu ấu trùng Bố Mẹ PPL/ Bố Mẹ giống) – Chứng
+						nhận giống Sạch Mầm Bệnh – Những đặc điểm được cải thiện (tăng trưởng, …) – Chứng nhận xuất xứ (Giống gia hóa)</p>
+					<br>
+
+					<br>
+				</div>
+				<div class="col-lg-6">
+					<img src="./Images/nuoi-tom-sieu-tham-canh-trong-be-noi-1.jpg" class="img-fluid">
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+    <!--ĐÓNG TẦM NHÌN-->
+	 <!--THẺ CÁC THÔNG TIN LIÊN QUAN-->
+	 <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <!-- Logo nhỏ-->
+            <div class="col-12 social padding mt-1">
+                <a href="https://www.facebook.com/0376223350T"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.w3schools.com/bootstrap/bootstrap_carousel.asp"><i class="fab fa-twitter"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://getbootstrap.com/docs/4.3/components/carousel/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/watch?v=1TkAo4Y0Wls"><i class="fab fa-youtube"></i></a>
+            </div>
+            <!--...-->
+        </div>
+    </div>
+    <!--ĐÓNG THẺ-->
+
+    <!--THẺ FOOTER-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+
+                    <img src="./Images/logo.png" height="40px ">
+                    <hr class="light">
+
+                    <p>111-222-3333</p>
+                    <p>mymail@gmail.com</p>
+                    <p>Nguyen Van Cu street, Can Tho, Vietnam</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+
+                    <h5>Working hours</h5>
+                    <hr class="light">
+
+                    <p>Monday-Friday: 8am - 5pm</p>
+                    <p>Weekend: 8am - 12am</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+
+                    <h5>Viết tạm coi sao</h5>
+                    <hr class="light">
+
+                    <p>Outsourcing</p>
+                    <p>Website chưa nghĩ ra tên</p>
+                    <p>Mobile applications</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5 class="h5build">&copy; WebProChua</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--ĐÓNG THẺ-->
+
 	</div>
 </body>
 </php>
