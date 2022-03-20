@@ -69,7 +69,7 @@
 }
 
 .fa-react {
-    color: #81D8F7;
+    color: #81d8f7;
 }
 
 .fa-angular {
@@ -77,7 +77,7 @@
 }
 
 .fa-css3 {
-    color: #D76537;
+    color: #d76537;
 }
 
 .fa-react,
@@ -132,7 +132,6 @@ hr.light {
     border-top: 1px solid #d5d5d5;
     width: 100%;
 }
-
 
 /*Media Query*/
 
@@ -203,5 +202,5 @@ span {
 
 .mt-1,
 .my-1 {
-    margin-top: -1.75rem!important;
+    margin-top: -1.75rem !important;
 }
